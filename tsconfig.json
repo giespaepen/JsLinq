@@ -1,0 +1,15 @@
+{
+    "compileOnSave": false,
+    "filesGlob": [
+        "./code/**.ts",
+        "./tests/**.ts"
+    ],
+    "compilerOptions": {
+        "target": "es5",
+        "sourceMap": true,
+        "allowJs": true,
+        "outDir": "./dist",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    }
+}
